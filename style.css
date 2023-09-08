@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("./bg.webp");
+  height: 130vh;
+}
+
+header {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  height: 70px;
+  position: sticky;
+  top: 0px;
+}
+
+.logoBox {
+  cursor: pointer;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid red;
+  display: inline-block;
+  width: 230px;
+  margin: 5px;
+  font-size: 19px;
+}
+
+.navBox {
+  border: 2px solid green;
+  border-radius: 10px;
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  width: 600px;
+  padding: 10px;
+}
+
+.navBox > a {
+  color: white;
+  margin: 5px 10px;
+  text-decoration: none;
+  transition: all 0.6s;
+}
+
+.navBox > a:hover {
+  color: pink;
+  border-bottom: 1px solid white;
+}
+
+.heading {
+  color: rgb(245, 46, 11);
+  border: 2px solid white;
+  font-size: 70px;
+  position: relative;
+  width: 500px;
+  top: 80px;
+  left: 70px;
+  border-radius: 20px 10px 20px 10px;
+  padding: 10px;
+}
+
+.heading + h3 {
+  color: white;
+  border: 1px solid white;
+  font-size: 70px;
+  position: relative;
+  width: 500px;
+  top: 90px;
+  left: 110px;
+  border-radius: 10px 20px 10px 20px;
+  padding: 10px;
+}
+
+h3 + p {
+  color: white;
+  word-spacing: 4px;
+  border: 2px solid wheat;
+  padding: 10px;
+  font-style: italic;
+  position: relative;
+  border-radius: 20px 10px 20px 10px;
+  width: 600px;
+  top: 110px;
+  left: 70px;
+}
+
+.btn {
+  padding: 5px 10px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-size: 18px;
+  position: relative;
+  border-radius: 10px;
+  background-color: rgb(245, 46, 11);
+  top: 130px;
+  color: white;
+  border: 2px solid white;
+  left: 230px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: rgba(247, 79, 49, 0);
+  color: rgb(245, 46, 11);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  color: white;
+  /* width: 400px; */
+  text-align: center;
+  left: 30%;
+  right: 30%;
+}
